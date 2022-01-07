@@ -1,7 +1,7 @@
 # MY RESUME
 ---
-lIVE: https://gouravchawla334.github.io/MYRESUME/
+Live: https://gouravchawla334.github.io/MYRESUME/
 
 # Screenshot 
-![image]()
+![image](https://github.com/gouravchawla334/MYRESUME/blob/main/ss.png)
 
