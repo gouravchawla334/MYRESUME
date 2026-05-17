@@ -1,21 +1,205 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-a{
+
+body {
+    background: #f4f4f4;
+}
+
+a {
     text-decoration: none;
-    color: blue;
+    color: #1a0dab;
 }
-.container{
-    width: 1200px;
-    margin: 50px;
-    position: relative;
-    left: 5%;
-    border: 1px solid black;
+
+a:hover {
+    text-decoration: underline;
 }
-.outer-div{
+
+.container {
     width: 900px;
-    position: relative;
-    top: 0%;
-    left: 10%;
-    margin-bottom: 25px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 40px 50px 50px 50px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.heading h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.heading .contact-line {
+    font-size: 0.92rem;
+    color: #333;
+    margin-top: 6px;
+}
+
+.heading .contact-line a {
+    color: #1a0dab;
+}
+
+.heading .contact-line i {
+    margin-right: 3px;
+}
+
+.heading .contact-line span {
+    margin: 0 8px;
+}
+
+.section {
+    margin-top: 22px;
+}
+
+.section-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid #000;
+    padding-bottom: 3px;
+    margin-bottom: 12px;
+}
+
+.overview p {
+    font-size: 0.93rem;
+    line-height: 1.7;
+    color: #222;
+}
+
+.exp-block {
+    margin-bottom: 16px;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.exp-header .company {
+    font-weight: bold;
+    font-size: 0.97rem;
+}
+
+.exp-header .dates {
+    font-size: 0.88rem;
+    color: #444;
+    font-style: italic;
+}
+
+.exp-role {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.exp-block ul {
+    padding-left: 20px;
+    font-size: 0.91rem;
+    line-height: 1.75;
+    color: #222;
+}
+
+.edu-block {
+    margin-bottom: 12px;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.edu-header .school {
+    font-weight: bold;
+    font-size: 0.97rem;
+}
+
+.edu-header .dates {
+    font-size: 0.88rem;
+    color: #444;
+    font-style: italic;
+}
+
+.edu-detail {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+table.cert-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.91rem;
+}
+
+table.cert-table th {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #bbb;
+    padding: 5px 8px;
+    background: #f9f9f9;
+}
+
+table.cert-table td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #eee;
+    color: #222;
+    vertical-align: top;
+}
+
+table.cert-table tr:last-child td {
+    border-bottom: none;
+}
+
+.project-block {
+    margin-bottom: 12px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 0.93rem;
+}
+
+.project-title a {
+    font-weight: normal;
+    font-size: 0.88rem;
+    margin-left: 6px;
+}
+
+.project-block ul {
+    padding-left: 20px;
+    font-size: 0.91rem;
+    line-height: 1.75;
+    color: #222;
+    margin-top: 4px;
+}
+
+.awards ul {
+    padding-left: 20px;
+    font-size: 0.91rem;
+    line-height: 1.85;
+    color: #222;
+}
+
+.skills-grid {
+    font-size: 0.91rem;
+    line-height: 1.85;
+}
+
+.skills-grid b {
+    display: inline-block;
+    width: 170px;
 }
