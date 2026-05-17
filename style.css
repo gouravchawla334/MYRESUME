@@ -203,3 +203,93 @@ table.cert-table tr:last-child td {
     display: inline-block;
     width: 170px;
 }
+
+/* ── RESPONSIVE ── */
+
+/* Tablet */
+@media (max-width: 960px) {
+    .container {
+        width: 95%;
+        margin: 20px auto;
+        padding: 30px 30px 40px 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 20px 16px 30px 16px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .heading h1 {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+
+    .heading .contact-line {
+        font-size: 0.78rem;
+        line-height: 1.9;
+    }
+
+    .heading .contact-line span {
+        display: none;
+    }
+
+    .heading .contact-line a {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .exp-header,
+    .edu-header {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .exp-header .dates,
+    .edu-header .dates {
+        font-size: 0.82rem;
+    }
+
+    .exp-block ul,
+    .project-block ul,
+    .awards ul {
+        padding-left: 16px;
+        font-size: 0.85rem;
+    }
+
+    table.cert-table {
+        font-size: 0.8rem;
+    }
+
+    table.cert-table th,
+    table.cert-table td {
+        padding: 5px 4px;
+    }
+
+    .skills-grid b {
+        width: auto;
+        display: inline;
+        margin-right: 4px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+    .heading h1 {
+        font-size: 1.35rem;
+    }
+
+    .container {
+        padding: 14px 10px 24px 10px;
+    }
+
+    table.cert-table th:nth-child(2),
+    table.cert-table td:nth-child(2) {
+        display: none;
+    }
+}
