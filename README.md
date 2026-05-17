@@ -26,3 +26,6 @@ Targeted for **Data Engineer** and **GCP Cloud** roles.
 - ⚡ Fast & lightweight — pure HTML/CSS, no frameworks
 - 🔗 Verified certification links via Credly & Skilljar
 - 📊 Schema.org structured data for Google rich results
+
+## 📜 License
+MIT © [Gourav Chawla](https://github.com/gouravchawla334)
